@@ -8,6 +8,4 @@ const axiosInstance = axios.create({
     }
 });
 
-axiosInstance.defaults.headers.common['Host'] = 'memes.tmplr.keenetic.pro';
-
 export default axiosInstance;

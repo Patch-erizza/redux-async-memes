@@ -1,0 +1,26 @@
+.memesList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.memeItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+.memeImg {
+    padding: 10px;
+    width: 100%;
+}
+.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #535bf2;
+    font-size: 10px;
+}
+.tag {
+    padding-right: 10px;
+}
